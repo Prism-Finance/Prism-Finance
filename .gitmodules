@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Prism-Finance/backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Prism-Finance/frontend.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Prism-Finance/docs.git
