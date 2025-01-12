@@ -2,11 +2,6 @@
     "name": "prism-finance",
     "version": "1.0.0",
     "private": true,
-    "workspaces": [
-        "backend",
-        "frontend-mobile",
-        "frontend-web"
-    ],
     "scripts": {
         "start": "concurrently \"bun run start --prefix backend\" \"bun run start --prefix frontend\"",
         "test": "concurrently \"bun run test --prefix backend\" \"bun run test --prefix frontend\"",
